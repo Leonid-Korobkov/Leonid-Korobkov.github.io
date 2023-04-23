@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://leonid-korobkov.github.io/</loc>
+  <lastmod>2023-04-23T11:58:28+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/math-project/</loc>
+  <lastmod>2023-04-23T11:11:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/bounceBalls/</loc>
+  <lastmod>2023-04-17T17:05:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/RandomColors/</loc>
+  <lastmod>2022-12-17T19:17:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/game-snake/</loc>
+  <lastmod>2022-02-28T09:39:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/hangman-game/</loc>
+  <lastmod>2022-01-23T10:09:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/aim-game/</loc>
+  <lastmod>2022-01-14T17:55:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/board/</loc>
+  <lastmod>2022-01-14T17:50:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/slider/</loc>
+  <lastmod>2022-01-14T17:40:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/cards/</loc>
+  <lastmod>2022-01-14T17:30:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/productivity/</loc>
+  <lastmod>2021-08-23T16:57:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/Mitravel/</loc>
+  <lastmod>2021-08-12T10:43:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leonid-korobkov.github.io/ActiveBox/</loc>
+  <lastmod>2021-08-07T11:08:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
