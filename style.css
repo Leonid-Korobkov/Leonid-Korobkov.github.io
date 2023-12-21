@@ -66,7 +66,6 @@ a:hover {
   text-decoration: none;
 }
 ul {
-  margin-left: 50px;
   margin-bottom: 20px;
   list-style: decimal;
 }
@@ -103,8 +102,23 @@ sup {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background: linear-gradient(0deg, rgba(32, 32, 32, 0.3), rgba(32, 32, 32, 0.3)), url('img/bg-sharp-blue.jpg') no-repeat center center / cover;
+  /* background: linear-gradient(0deg, rgba(32, 32, 32, 0.3), rgba(32, 32, 32, 0.3)), url('img/bg-sharp-blue.jpg') no-repeat center center / cover; */
   position: relative;
+}
+
+.wrapper::before {
+  content: '';
+  /* background-image: url(img/bg-3-min.jpg); */
+  background: linear-gradient(0deg, rgba(32, 32, 32, 0.3), rgba(32, 32, 32, 0.3)),
+    url('img/bg-sharp-blue.jpg') no-repeat center center / cover;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  top: -70px;
+  transform: translateY(70px);
 }
 .wrapper > main {
   flex: 1 1 auto;
@@ -119,7 +133,6 @@ sup {
   margin: 0 auto;
   padding: 0 15px;
 }
-
 
 .header {
   border-bottom: 1px solid var(--white-color);
@@ -155,6 +168,7 @@ sup {
   padding: 12px 0;
 }
 
+
 .main-title {
   font-weight: bold;
   font-size: 32px;
@@ -162,4 +176,60 @@ sup {
   color: var(--white-color);
   margin-bottom: 15px;
   margin-top: 20px;
+}
+.main__list {
+  display: grid;
+  gap: 20px;
+}
+ul {
+	list-style-type: none; 
+	counter-reset: num;
+	margin: 0 0 0 60px;
+	padding: 15px 0 5px 0;
+	font-size: 16px;
+}
+ul li {
+	position: relative;	
+	margin: 0 0 0 0;
+	padding: 0 0 10px 0;
+}
+ul li:before {
+	content: counter(num); 
+	counter-increment: num;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: -60px;
+	width: 50px;    
+	color: #ef6780;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.main__item {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+}
+.main__link {
+  margin-bottom: 10px;
+  grid-column: span 4;
+	color: #ef6780;
+  font-weight: bold;
+}
+
+.main__img {
+  max-width: 100%;
+  background-size: cover;
+  border-radius: 30px;
+  grid-column: span 8;
+}
+
+@media (max-width: 778px) {
+  .main__item {
+    grid-template-columns: 1fr;
+  }
+  .main-title {
+    font-size: 24px;
+  }
 }
