@@ -205,6 +205,12 @@ ul li:before {
   font-size: 40px;
   font-weight: bold;
 }
+.main__item-link {
+  transition: transform 1s ease 0s;
+}
+.main__item-link:hover {
+  transform: scale(1.02);
+}
 .main__item {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -216,6 +222,7 @@ ul li:before {
   color: #ef6780;
   font-weight: bold;
 }
+
 
 .main__img {
   max-width: 100%;
