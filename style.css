@@ -207,6 +207,8 @@ ul li:before {
 }
 .main__item-link {
   transition: transform 1s ease 0s;
+  cursor: url("img/cursor.png"), pointer;
+  cursor: "👀", pointer;
 }
 .main__item-link:hover {
   transform: scale(1.02);
