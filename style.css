@@ -207,8 +207,7 @@ ul li:before {
 }
 .main__item-link {
   transition: transform 1s ease 0s;
-  cursor: url("img/cursor.png"), pointer;
-  cursor: "👀", pointer;
+  cursor: url('img/cursor.png'), pointer;
 }
 .main__item-link:hover {
   transform: scale(1.02);
@@ -225,12 +224,53 @@ ul li:before {
   font-weight: bold;
 }
 
-
-.main__img {
+.main__img-container {
+  position: relative;
+  overflow: hidden;
+  background-color: #a3adbf;
+  aspect-ratio: 16 / 9;
   max-width: 100%;
-  background-size: cover;
   border-radius: 30px;
   grid-column: span 8;
+  transition: all 0.3s ease 0s;
+}
+.skeleton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+
+  background: linear-gradient(-90deg, #f0f0f0 0%, #bdbdbd 50%, #f0f0f0 100%);
+  background-size: 400% 400%;
+  animation: pulse 1.2s ease-in-out infinite;
+  -webkit-animation: pulse 1.2s ease-in-out infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}
+@keyframes pulse {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}
+
+.main__img {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+._lazy-loaded {
+  opacity: 1;
 }
 
 @media (max-width: 778px) {
