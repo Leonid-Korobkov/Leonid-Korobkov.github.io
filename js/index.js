@@ -6,9 +6,8 @@ const lazyMedia = new LazyLoad({
   use_native: true,
   callback_loaded: el => {
     const imgContainer = el.closest('.main__img-container')
-    // imgContainer.style.aspectRatio = 'auto';
     if (imgContainer) {
-    imgContainer.style.height = 'auto';
+      imgContainer.style.aspectRatio = 'auto';
       const skeleton = imgContainer.querySelector('.skeleton')
       if (skeleton) {
         imgContainer.removeChild(skeleton)
