@@ -43,13 +43,13 @@ export const projectsData = [
   },
   {
     title: 'Мини-конструктор сайтов на JS',
-    link: 'https://excel-krbln.web.app/',
+    link: 'https://site-builder-krbln.web.app',
     imageSrc: 'img/portfolio/min/site-builder.jpg',
     alt: 'Мини-конструктор сайтов на JS'
   },
   {
     title: 'Приложение «Задай мне вопрос» на JavaScript + MUI + Firebase',
-    link: 'https://excel-krbln.web.app/',
+    link: 'https://podcast-krbln.web.app',
     imageSrc: 'img/portfolio/min/question.jpg',
     alt: 'Приложение «Задай мне вопрос» на JavaScript + MUI + Firebase'
   },
