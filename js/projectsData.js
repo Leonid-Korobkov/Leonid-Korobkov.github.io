@@ -12,6 +12,12 @@ export const projectsData = [
     alt: 'Перевод систем счисления (math-project)'
   },
   {
+    title: 'Веб-приложение - пиццерия (TypeScript, React, RTK, mock API)',
+    link: 'https://react-food-delivery-one.vercel.app',
+    imageSrc: 'img/portfolio/min/react-food-delivery.jpg',
+    alt: 'Веб-приложение - пиццерия (TypeScript, React, RTK, mock API)'
+  },
+  {
     title: 'Верстка сайта под Wordpress. НОЭКС - Строительная компания',
     link: 'http://o92141m5.beget.tech/noex/',
     imageSrc: 'img/portfolio/min/noex.jpg',
