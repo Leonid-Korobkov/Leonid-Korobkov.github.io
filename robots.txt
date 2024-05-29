@@ -1,0 +1,4 @@
+User-agent: 
+Crawl-delay: 1
+Host: https://leonid-korobkov.github.io
+Sitemap: https://leonid-korobkov.github.io/sitemap.xml
