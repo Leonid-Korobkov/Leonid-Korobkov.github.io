@@ -227,7 +227,7 @@ ul li:before {
 .main__img-container {
   position: relative;
   overflow: hidden;
-  background-color: #a3adbf;
+  background-color: #101010;
   aspect-ratio: 16 / 9;
   max-width: 100%;
   border-radius: 30px;
