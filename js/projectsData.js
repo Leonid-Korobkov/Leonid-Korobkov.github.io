@@ -1,5 +1,11 @@
 export const projectsData = [
   {
+    title: 'FullStack-разработка социальной сети Zling',
+    link: 'https://zling.up.railway.app',
+    imageSrc: 'img/portfolio/min/zling.png',
+    alt: 'FullStack-разработка социальной сети Zling'
+  },
+  {
     title: 'Веб-приложение для заметок (KRB Notes)',
     link: 'https://krb-notes.vercel.app/',
     imageSrc: 'img/portfolio/min/krb-notes.jpg',

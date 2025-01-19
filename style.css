@@ -178,12 +178,12 @@ sup {
 }
 .main__list {
   display: grid;
-  gap: 20px;
+  gap: 40px;
 }
 ul {
   list-style-type: none;
   counter-reset: num;
-  margin: 0 0 0 60px;
+  margin: 0;
   padding: 15px 0 5px 0;
   font-size: 16px;
 }
@@ -197,12 +197,13 @@ ul li:before {
   counter-increment: num;
   display: inline-block;
   position: absolute;
-  top: 0px;
-  left: -60px;
-  width: 50px;
-  color: #ef6780;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0px;
+  color: #4de;
   text-align: center;
-  font-size: 40px;
+  font-size: 240px;
+  opacity: 0.15;
   font-weight: bold;
 }
 .main__item-link {
@@ -284,5 +285,14 @@ ul li:before {
   }
   .main-title {
     font-size: 24px;
+  }
+  ul li:before {
+    font-size: 100px;
+    top: 0;
+    transform: translate(0, -30%);
+    right: 0px;
+    left: auto;
+    opacity: 0.25;
+    font-weight: bold;
   }
 }
