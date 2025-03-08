@@ -109,7 +109,11 @@ sup {
 .wrapper::before {
   content: '';
   /* background-image: url(img/bg-3-min.jpg); */
-  background: linear-gradient(0deg, rgba(32, 32, 32, 0.3), rgba(32, 32, 32, 0.3)),
+  background: linear-gradient(
+      0deg,
+      rgba(32, 32, 32, 0.3),
+      rgba(32, 32, 32, 0.3)
+    ),
     url('img/bg-sharp-blue.jpg') no-repeat center center / cover;
 
   position: fixed;
@@ -194,6 +198,7 @@ ul li {
 }
 ul li:before {
   content: counter(num);
+  z-index: -1;
   counter-increment: num;
   display: inline-block;
   position: absolute;
@@ -225,6 +230,25 @@ ul li:before {
   font-weight: bold;
 }
 
+.main__github-link {
+  color: #808080;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.main__github-link:hover {
+  color: #a0a0a0;
+}
+
+.main__github-icon {
+  width: 20px;
+  height: 20px;
+}
+
 .main__img-container {
   position: relative;
   overflow: hidden;
@@ -248,7 +272,12 @@ ul li:before {
   animation: pulse 1.2s ease-in-out infinite;
   -webkit-animation: pulse 1.2s ease-in-out infinite; */
 
-  background: linear-gradient(-90deg, #333333 0%, #444444 50%, #333333 100%); /* Темные цвета */
+  background: linear-gradient(
+    -90deg,
+    #333333 0%,
+    #444444 50%,
+    #333333 100%
+  ); /* Темные цвета */
   background-size: 400% 400%;
   animation: pulse 1.5s ease-in-out infinite; /* Плавная анимация */
   -webkit-animation: pulse 1.5s ease-in-out infinite; /* Плавная анимация */
