@@ -88,7 +88,7 @@ export const projectsData = [
     title: 'Плагин на JavaScript. Загрузка изображений на сервер Firebase',
     link: 'https://plugin-upload-krbln.web.app/',
     imageSrc: 'img/portfolio/min/plugin-upload.jpg',
-    alt: 'Плагин на JavaScript. Загрузка изображений на сервер Firebase',
+    alt: 'Плагин на JavaScript. Загрузка изображений на сервер Firebase'
   },
   {
     title: 'Верстка интернет-магазина. GoldFish',

@@ -1,7 +1,7 @@
 import './lazyload.min.js'
 import { projectsData } from './projectsData.js'
 
-function renderProjects() {
+function renderProjects () {
   const $projectList = document.querySelector('.main__list')
 
   let stringToInsert = ``
@@ -25,12 +25,12 @@ function renderProjects() {
 
     const projectItem = `
       <li class="main__item">
-        <div style="display: flex; flex-direction: column; grid-column: span 4;">
+        <div class="main__links-group" style="display: flex; flex-direction: column; grid-column: span 4;">
           <a href="${item.link}" target="_blank" class="main__link">${item.title}</a>
           ${githubLink}
           ${githubLinkBack}
         </div>
-        <a class="main__img-container main__item-link" href="${item.link}">
+        <a class="main__img-container main__item-link" href="${item.link}" target="_blank">
           <div class="skeleton"></div>
           <img class="main__img" data-src="${item.imageSrc}" alt="${item.alt}">
         </a>
