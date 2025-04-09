@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap');
 
 html {
   --white-color: #fff;
@@ -25,7 +25,7 @@ body {
 body {
   color: var(--white-color);
   line-height: 1;
-  font-family: 'Montserrat', 'Ruslan Display', sans-serif;
+  font-family: 'Montserrat', 'Montserrat Alternates', sans-serif;
   font-weight: normal;
   font-size: 18px;
   background: var(--dark-main-color);
@@ -173,8 +173,8 @@ sup {
 }
 
 .main-title {
-  font-family: 'Ruslan Display', sans-serif;
-  font-weight: normal;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
   font-size: 48px;
   text-align: center;
   color: var(--white-color);
