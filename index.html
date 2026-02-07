@@ -2,76 +2,114 @@
 <html lang="ru">
 
 <head>
-  <!-- Yandex.RTB -->
+  <!-- Yandex.RTB (Restored) -->
   <script>window.yaContextCb = window.yaContextCb || []</script>
   <script src="https://yandex.ru/ads/system/context.js" async></script>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="yandex-verification" content="c2b53a53c55390c5" />
-
-  <meta name="description" content="Портфолио Frontend разработчика Леонида Коробкова">
-  <meta name="keywords" content="Леонид Коробков, github, GitHub, проекты, javascript">
-  <meta name="robots" content="all" />
+  <!-- Meta Tags (Restored & Optimized) -->
+  <title>Leonid Korobkov | Portfolio</title>
+  <meta name="description"
+    content="Портфолио Frontend / Fullstack разработчика Леонида Коробкова. React, Node.js, UI/UX.">
+  <meta name="keywords" content="Леонид Коробков, github, GitHub, проекты, javascript, portfolio, frontend, fullstack">
   <meta name="author" content="Коробков Леонид" />
   <meta name="copyright" lang="ru" content="Коробков Леонид" />
-  <title>Портфолио Леонида Коробкова</title>
+  <meta name="robots" content="all" />
+  <meta name="yandex-verification" content="c2b53a53c55390c5" />
+  <meta name="apple-mobile-web-app-title" content="krbln" />
 
-  <link rel="stylesheet" href="style.css">
-
+  <!-- Favicons (Restored) -->
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="krbln" />
   <link rel="manifest" href="/site.webmanifest" />
 
-  <link rel="preload" as="image" href="img/bg-sharp-blue.jpg">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="wrapper">
 
-    <header class="header">
-      <div class="header__container">
-        <div class="header__body">
-          <div class="header__logo">
-            <img src="img/logo.png" alt="logo">
+  <!-- <div class="noise-overlay"></div> -->
+  <canvas id="neural-canvas" class="neural-bg"></canvas>
+
+  <!-- Minimalist Header (Logo only, maybe simplified nav) -->
+  <header class="header fade-in">
+    <div class="logo">LK<span class="accent">.</span></div>
+    <nav class="nav">
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section: Pure Name & Animation -->
+    <section class="hero-minimal">
+      <div class="hero-content">
+        <h1 class="hero-name glitch-effect" data-text="Leonid Korobkov">Leonid Korobkov</h1>
+        <div class="hero-subtitle fade-in-delay">Fullstack Developer</div>
+      </div>
+
+      <div class="scroll-indicator fade-in">
+        <span class="mouse">
+          <span class="wheel"></span>
+        </span>
+      </div>
+    </section>
+
+    <!-- Dynamic Projects Section -->
+    <section id="work" class="projects-section">
+      <div class="container">
+        <div class="section-header fade-in-on-scroll">
+          <h2 class="section-title">Selected Works</h2>
+
+          <!-- Filters -->
+          <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+            <button class="filter-btn" data-filter="frontend">Frontend</button>
+            <button class="filter-btn" data-filter="landing">Landing</button>
+            <button class="filter-btn" data-filter="game">Experiments</button>
           </div>
+        </div>
+
+        <!-- Projects Grid (Populated by JS) -->
+        <div id="projects-grid" class="projects-grid-dynamic">
+          <!-- Javascript will inject cards here -->
         </div>
       </div>
-    </header>
+    </section>
 
-    <main class="page">
-      <section class="main">
-        <div class="main__container">
-          <div class="main__body">
-            <h1 class="main__title main-title">Портфолио</h1>
-            <ul class="main__list"></ul>
-          </div>
+    <!-- Footer / Contact -->
+    <footer id="contact" class="footer">
+      <div class="footer__content fade-in-on-scroll">
+        <h2 class="footer__title">Let's build together.</h2>
+        <div class="footer__links">
+          <a href="https://github.com/Leonid-Korobkov" target="_blank" class="social-link">GitHub <span
+              class="arrow">↗</span></a>
+          <!-- <a href="https://t.me/your_telegram" target="_blank" class="social-link">Telegram <span
+              class="arrow">↗</span></a>
+          <a href="mailto:your@email.com" class="social-link">Email <span class="arrow">↗</span></a> -->
         </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__body">
-          <p class="footer__p">©
-            <script>
-              document.write(new Date().getFullYear());
-
-            </script> ВСЕ ПРАВА ЗАЩИЩЕНЫ
-          </p>
-          <p class="footer__p">
-            <small>Frontend Developer - Коробков Леонид</small>
-          </p>
+        <div class="footer__copyright">
+          <p>© <span id="year">2026</span> Leonid Korobkov</p>
         </div>
       </div>
     </footer>
-  </div>
 
-  <script src="js/index.js" type="module"></script>
+  </main>
+
+  <script type="module" src="js/script.js"></script>
 </body>
 
 </html>
