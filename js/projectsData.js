@@ -1,12 +1,27 @@
 export const projectsData = [
   {
+    title:
+      'Skynora — многостраничное веб-приложение для телеграм бота по северному сиянию',
+    link: 'https://skynora.ru',
+    imageSrc: 'img/portfolio/min/skynora-site.png',
+    alt: 'Веб-приложение для продвижения телеграм бота по северному сиянию и предоставления информации о северном сиянии в регионах РФ',
+    categories: ['landing', 'frontend', 'product', 'astro'],
+  },
+  {
+    title: 'Skynora Bot — Telegram-бот для уведомлений о северном сиянии',
+    link: 'https://t.me/skynora_bot',
+    imageSrc: 'img/portfolio/min/skynora-bot.png',
+    alt: 'Telegram-бот с уведомлениями о северном сиянии в регионах РФ по наблюдениям людей и данным NOAA',
+    categories: ['backend', 'bot', 'telegram'],
+  },
+  {
     title: 'FullStack-разработка социальной сети Zling',
     link: 'https://zling.vercel.app',
     imageSrc: 'img/portfolio/min/zling.jpeg',
     alt: 'FullStack-разработка социальной сети Zling',
     githubLink: 'https://github.com/Leonid-Korobkov/social-net-front',
     githubLinkBack: 'https://github.com/Leonid-Korobkov/social-net-back',
-    categories: ['fullstack', 'frontend', 'backend']
+    categories: ['fullstack', 'frontend', 'backend'],
   },
   {
     title: 'Веб-приложение для заметок (KRB Notes)',
@@ -14,7 +29,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/krb-notes.jpg',
     alt: 'Веб-приложение для заметок (KRB Notes)',
     githubLink: 'https://github.com/Leonid-Korobkov/KRB-Notes',
-    categories: ['frontend', 'react']
+    categories: ['frontend', 'react'],
   },
   {
     title: 'Перевод систем счисления (math-project)',
@@ -22,7 +37,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/math-project.jpg',
     alt: 'Перевод систем счисления (math-project)',
     githubLink: 'https://github.com/Leonid-Korobkov/math-project',
-    categories: ['frontend', 'tools']
+    categories: ['frontend', 'tools'],
   },
   {
     title: 'Веб-приложение - пиццерия (TypeScript, React, RTK, mock API)',
@@ -30,7 +45,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/react-food-delivery.jpg',
     alt: 'Веб-приложение - пиццерия (TypeScript, React, RTK, mock API)',
     githubLink: 'https://github.com/Leonid-Korobkov/react-food-delivery',
-    categories: ['frontend', 'react', 'typescript']
+    categories: ['frontend', 'react', 'typescript'],
   },
   {
     title: 'Верстка сайта под Wordpress. НОЭКС - Строительная компания',
@@ -38,7 +53,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/noex.jpg',
     alt: 'Верстка сайта под Wordpress. НОЭКС - Строительная компания',
     githubLink: 'https://github.com/Leonid-Korobkov/noex',
-    categories: ['landing', 'wordpress']
+    categories: ['landing', 'wordpress'],
   },
   {
     title: 'Real-time Chat. React, Firebase, MUI',
@@ -46,7 +61,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/realtime-chat.jpg',
     alt: 'Real-time Chat. React, Firebase, MUI',
     githubLink: 'https://github.com/Leonid-Korobkov/chat',
-    categories: ['frontend', 'firebase', 'react']
+    categories: ['frontend', 'firebase', 'react'],
   },
   {
     title: 'Шахматы на React, TypeScript, PostCSS, Vite',
@@ -54,7 +69,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/react-chess.png',
     alt: 'Шахматы на React, TypeScript, PostCSS, Vite',
     githubLink: 'https://github.com/Leonid-Korobkov/react-chess',
-    categories: ['game', 'react', 'typescript']
+    categories: ['game', 'react', 'typescript'],
   },
   {
     title: 'Мини-клон Excel. HTML, CSS, JS.',
@@ -62,7 +77,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/excel.jpg',
     alt: 'Мини-клон Excel. HTML, CSS, JS.',
     githubLink: 'https://github.com/Leonid-Korobkov/excel',
-    categories: ['frontend', 'tools', 'vanilla-js']
+    categories: ['frontend', 'tools', 'vanilla-js'],
   },
   {
     title: 'Простое веб-приложение для заметок (simple-notes)',
@@ -70,7 +85,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/simple-notes.png',
     alt: 'Простое веб-приложение для заметок (simple-notes)',
     githubLink: 'https://github.com/Leonid-Korobkov/simple-notes-react',
-    categories: ['frontend', 'react']
+    categories: ['frontend', 'react'],
   },
   {
     title: 'Таймер для медитации. HTML, CSS, JS.',
@@ -78,7 +93,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/timer-meditation.jpg',
     alt: 'Таймер для медитации. HTML, CSS, JS.',
     githubLink: 'https://github.com/Leonid-Korobkov/timer-meditation',
-    categories: ['frontend', 'vanilla-js']
+    categories: ['frontend', 'vanilla-js'],
   },
   {
     title: 'Мини-конструктор сайтов на JS',
@@ -86,7 +101,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/site-builder.jpg',
     alt: 'Мини-конструктор сайтов на JS',
     githubLink: 'https://github.com/Leonid-Korobkov/site-builder',
-    categories: ['frontend', 'vanilla-js', 'tools']
+    categories: ['frontend', 'vanilla-js', 'tools'],
   },
   {
     title: 'Приложение «Задай мне вопрос» на JavaScript + MUI + Firebase',
@@ -94,14 +109,14 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/question.jpg',
     alt: 'Приложение «Задай мне вопрос» на JavaScript + MUI + Firebase',
     githubLink: 'https://github.com/Leonid-Korobkov/podcast-krbln',
-    categories: ['frontend', 'firebase']
+    categories: ['frontend', 'firebase'],
   },
   {
     title: 'Плагин на JavaScript. Загрузка изображений на сервер Firebase',
     link: 'https://plugin-upload-krbln.web.app/',
     imageSrc: 'img/portfolio/min/plugin-upload.jpg',
     alt: 'Плагин на JavaScript. Загрузка изображений на сервер Firebase',
-    categories: ['tools', 'plugin']
+    categories: ['tools', 'plugin'],
   },
   {
     title: 'Верстка интернет-магазина. GoldFish',
@@ -109,7 +124,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/goldfish.jpg',
     alt: 'Верстка интернет-магазина. GoldFish',
     githubLink: 'https://github.com/Leonid-Korobkov/GoldFish',
-    categories: ['landing', 'ecommerce']
+    categories: ['landing', 'ecommerce'],
   },
   {
     title: 'Верстка лендинга с посадкой на wordpress. Furniture shop',
@@ -117,7 +132,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/furniture-shop.jpg',
     alt: 'Верстка лендинга с посадкой на wordpress. Furniture shop',
     githubLink: 'https://github.com/Leonid-Korobkov/Furniture-shop',
-    categories: ['landing', 'wordpress']
+    categories: ['landing', 'wordpress'],
   },
   {
     title: 'Викторина по истории (quiz-history)',
@@ -125,7 +140,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/quiz-history.jpg',
     alt: 'Викторина по истории (quiz-history)',
     githubLink: 'https://github.com/Leonid-Korobkov/quiz-history',
-    categories: ['game', 'frontend']
+    categories: ['game', 'frontend'],
   },
   {
     title: 'Отскакивающие мячики (bounceBalls)',
@@ -133,7 +148,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/bounce-balls.jpg',
     alt: 'Отскакивающие мячики (bounceBalls)',
     githubLink: 'https://github.com/Leonid-Korobkov/bounceBalls',
-    categories: ['game', 'canvas']
+    categories: ['game', 'canvas'],
   },
   {
     title: 'Генератор цветов (RandomColors)',
@@ -141,7 +156,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/random-color.jpg',
     alt: 'Генератор цветов (RandomColors)',
     githubLink: 'https://github.com/Leonid-Korobkov/RandomColors',
-    categories: ['tools', 'frontend']
+    categories: ['tools', 'frontend'],
   },
   {
     title: 'Игра "Змейка"(SnakeGame)',
@@ -149,7 +164,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/snake.jpg',
     alt: 'Игра "Змейка"(SnakeGame)',
     githubLink: 'https://github.com/Leonid-Korobkov/game-snake',
-    categories: ['game', 'frontend']
+    categories: ['game', 'frontend'],
   },
   {
     title: 'Игра "Виселица"(hangman-game)',
@@ -157,7 +172,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/hangman.jpg',
     alt: 'Игра "Виселица"(hangman-game)',
     githubLink: 'https://github.com/Leonid-Korobkov/hangman-game',
-    categories: ['game', 'frontend']
+    categories: ['game', 'frontend'],
   },
   {
     title: 'Игра на прицеливание (aim-game)',
@@ -165,7 +180,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/aim-game.jpg',
     alt: 'Игра на прицеливание (aim-game)',
     githubLink: 'https://github.com/Leonid-Korobkov/aim-game',
-    categories: ['game', 'frontend']
+    categories: ['game', 'frontend'],
   },
   {
     title: 'Мини-клон Trello. HTML, CSS, JS.',
@@ -173,7 +188,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/drag-drop.jpg',
     alt: 'Мини-клон Trello. HTML, CSS, JS.',
     githubLink: 'https://github.com/Leonid-Korobkov/Drag-n-Drop',
-    categories: ['frontend', 'tools']
+    categories: ['frontend', 'tools'],
   },
   {
     title: 'Доска для рисования (board)',
@@ -181,7 +196,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/board.jpg',
     alt: 'Доска для рисования (board)',
     githubLink: 'https://github.com/Leonid-Korobkov/board',
-    categories: ['frontend', 'tools']
+    categories: ['frontend', 'tools'],
   },
   {
     title: 'Слайдер (slider)',
@@ -189,7 +204,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/slider.jpg',
     alt: 'Слайдер (slider)',
     githubLink: 'https://github.com/Leonid-Korobkov/slider',
-    categories: ['frontend', 'components']
+    categories: ['frontend', 'components'],
   },
   {
     title: 'Карточки (cards)',
@@ -197,7 +212,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/cards.jpg',
     alt: 'Карточки (cards)',
     githubLink: 'https://github.com/Leonid-Korobkov/cards',
-    categories: ['frontend', 'components']
+    categories: ['frontend', 'components'],
   },
   {
     title: 'Верстка сайта productivity',
@@ -205,7 +220,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/productivity.jpg',
     alt: 'Верстка сайта productivity (productivity)',
     githubLink: 'https://github.com/Leonid-Korobkov/productivity',
-    categories: ['landing', 'frontend']
+    categories: ['landing', 'frontend'],
   },
   {
     title: 'Верстка сайта Mitravel',
@@ -213,7 +228,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/mitravel.jpg',
     alt: 'Верстка сайта Mitravel (Mitravel)',
     githubLink: 'https://github.com/Leonid-Korobkov/Mitravel',
-    categories: ['landing', 'frontend']
+    categories: ['landing', 'frontend'],
   },
   {
     title: 'Верстка сайта ActiveBox',
@@ -221,6 +236,6 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/activebox.jpg',
     alt: 'Верстка сайта ActiveBox (ActiveBox)',
     githubLink: 'https://github.com/Leonid-Korobkov/ActiveBox',
-    categories: ['landing', 'frontend']
-  }
+    categories: ['landing', 'frontend'],
+  },
 ]
