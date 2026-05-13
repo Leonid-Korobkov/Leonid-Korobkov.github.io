@@ -21,6 +21,11 @@ export const projectsData = [
     alt: 'Социальная сеть Zling с полным стеком разработки: интерфейс, серверная часть и взаимодействие между ними',
     githubLink: 'https://github.com/Leonid-Korobkov/social-net-front',
     githubLinkBack: 'https://github.com/Leonid-Korobkov/social-net-back',
+    // Тестовый аккаунт для быстрого входа без регистрации
+    testAccount: {
+      email: 'zling.krbln@gmail.com',
+      password: 'test_pasS1$',
+    },
     categories: ['fullstack', 'social', 'frontend', 'backend'],
   },
   {
