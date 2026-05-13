@@ -18,10 +18,14 @@ export const projectsData = [
     title: 'FullStack-разработка социальной сети Zling',
     link: 'https://zling.vercel.app',
     imageSrc: 'img/portfolio/min/zling.jpeg',
-    alt: 'Социальная сеть Zling с полным стеком разработки: интерфейс, серверная часть и взаимодействие между ними',
+    alt: `Социальная сеть Zling с полным стеком разработки: интерфейс, серверная часть и взаимодействие между ними.
+    
+Данные для демо входа в аккаунт: 
+ - email: zling.krbln@gmail.com
+ - pass: test_pasS1$
+    `,
     githubLink: 'https://github.com/Leonid-Korobkov/social-net-front',
     githubLinkBack: 'https://github.com/Leonid-Korobkov/social-net-back',
-    // Тестовый аккаунт для быстрого входа без регистрации
     testAccount: {
       email: 'zling.krbln@gmail.com',
       password: 'test_pasS1$',

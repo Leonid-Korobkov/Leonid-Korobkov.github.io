@@ -71,13 +71,6 @@ function renderProjects(data, container) {
         <div class="project-links">
             ${linksHtml}
         </div>
-        ${
-          project.testAccount
-            ? `<div class="test-account">
-            <button class="test-login-btn" data-email="${project.testAccount.email}" data-pass="${project.testAccount.password}">Тестовый вход</button>
-          </div>`
-            : ''
-        }
       </div>
   `
     container.appendChild(card)
