@@ -66,6 +66,21 @@ export const projectsData = [
     categories: ['frontend', 'wordpress', 'business'],
   },
   {
+    title:
+      'Федерация хоккея с мячом Ленинградской области — многостраничный сайт на Tilda',
+    link: 'https://bandy47.ru',
+    imageSrc: 'img/portfolio/min/bandy47.png',
+    alt: 'Многостраничный сайт Федерации хоккея с мячом Ленинградской области: новости, документы, медиа, информация о федерации. Полный цикл разработки на Tilda — дизайн, структура, контент.',
+    categories: ['product', 'frontend', 'business'],
+  },
+  {
+    title: 'Art Efimov — выездной детейлинг в СПб. Next.js с фокусом на SEO',
+    link: 'https://art-efimov.vercel.app',
+    imageSrc: 'img/portfolio/min/art-efimov.png',
+    alt: 'Сайт выездного детейлинга Art Efimov в Санкт-Петербурге. Разработка на Next.js с глубокой SEO-оптимизацией: структурированные данные, микроразметка, семантическая вёрстка.',
+    categories: ['frontend', 'react', 'business'],
+  },
+  {
     title: 'Real-time Chat. React, Firebase, MUI',
     link: 'https://chat-react-krbln.vercel.app/',
     imageSrc: 'img/portfolio/min/realtime-chat.jpg',
