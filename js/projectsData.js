@@ -6,6 +6,14 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/skynora-site.png',
     alt: 'Многостраничный сайт Skynora с информацией о северном сиянии и продвижением Telegram-бота для регионов России',
     categories: ['product', 'astro', 'frontend'],
+    features: [
+      'Парсинг 5+ источников: RSS, Atom, Telegram, Xras.ru, HTML',
+      'Vision-LLM (GPT-4.1 mini) + base64-изображения',
+      'Генерация markdown с JSON-LD, OG-мета, ISO-датами',
+      'Запись в Astro content collection',
+      'Локальное хранение изображений из источников',
+      'GitHub Actions: новости каждые 15 мин, SEO ежедневно',
+    ],
   },
   {
     title: 'Skynora Bot — Telegram-бот для уведомлений о северном сиянии',
@@ -13,6 +21,12 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/skynora-bot.png',
     alt: 'Telegram-бот Skynora для уведомлений о северном сиянии по наблюдениям пользователей и данным NOAA',
     categories: ['bot', 'telegram', 'backend'],
+    features: [
+      'Уведомления о северном сиянии в реальном времени',
+      'Интеграция с данными NOAA (SWPC)',
+      'Краудсорсинг наблюдений от пользователей',
+      'Гео-таргетинг по регионам России',
+    ],
   },
   {
     title: 'FullStack-разработка социальной сети Zling',
@@ -110,7 +124,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/quiz-history.png',
     alt: 'Викторина по истории с вопросами и интерактивной проверкой ответов',
     githubLink: 'https://github.com/Leonid-Korobkov/quiz-history',
-    categories: ['frontend', 'vanila-js'],
+    categories: ['frontend', 'vanilla-js'],
   },
   {
     title: 'Простое веб-приложение для заметок (simple-notes)',
@@ -189,7 +203,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/snake.jpg',
     alt: 'Классическая игра "Змейка" в браузере',
     githubLink: 'https://github.com/Leonid-Korobkov/game-snake',
-    categories: ['game', 'vanila-js'],
+    categories: ['game', 'vanilla-js'],
   },
   {
     title: 'Игра "Виселица"(hangman-game)',
@@ -197,7 +211,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/hangman.jpg',
     alt: 'Браузерная игра "Виселица" с угадыванием слова',
     githubLink: 'https://github.com/Leonid-Korobkov/hangman-game',
-    categories: ['game', 'vanila-js', 'book'],
+    categories: ['game', 'vanilla-js', 'book'],
   },
   {
     title: 'Игра на прицеливание (aim-game)',
@@ -205,7 +219,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/aim-game.jpg',
     alt: 'Игра на прицеливание с проверкой скорости реакции и точности',
     githubLink: 'https://github.com/Leonid-Korobkov/aim-game',
-    categories: ['game', 'vanila-js'],
+    categories: ['game', 'vanilla-js'],
   },
   {
     title: 'Мини-клон Trello. HTML, CSS, JS.',
@@ -213,7 +227,7 @@ export const projectsData = [
     imageSrc: 'img/portfolio/min/drag-drop.jpg',
     alt: 'Мини-клон Trello для работы с задачами и drag-and-drop карточками',
     githubLink: 'https://github.com/Leonid-Korobkov/Drag-n-Drop',
-    categories: ['tools', 'vanila-js', 'game'],
+    categories: ['tools', 'vanilla-js', 'game'],
   },
   {
     title: 'Доска для рисования (board)',

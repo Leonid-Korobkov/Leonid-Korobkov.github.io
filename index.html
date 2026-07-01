@@ -32,17 +32,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;700;800&family=Manrope:wght@700;800;900&display=swap"
     rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <!-- <div class="noise-overlay"></div> -->
-  <canvas id="neural-canvas" class="neural-bg"></canvas>
-
   <!-- Minimalist Header (Logo only, maybe simplified nav) -->
   <header class="header fade-in">
     <div class="logo">LK<span class="accent">.</span></div>
@@ -58,12 +54,6 @@
       <div class="hero-content">
         <h1 class="hero-name glitch-effect" data-text="Leonid Korobkov">Leonid Korobkov</h1>
         <div class="hero-subtitle fade-in-delay">Fullstack Developer</div>
-      </div>
-
-      <div class="scroll-indicator fade-in">
-        <span class="mouse">
-          <span class="wheel"></span>
-        </span>
       </div>
     </section>
 
@@ -109,6 +99,10 @@
     </footer>
 
   </main>
+
+  <svg class="deco-triangle" viewBox="0 0 100 100" aria-hidden="true">
+    <polygon points="50,6 94,94 6,94" />
+  </svg>
 
   <script type="module" src="js/script.js"></script>
 </body>

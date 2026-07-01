@@ -3,12 +3,11 @@ import { initNeuralGlow } from './neural-glow.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Initial Render
-  initNeuralGlow('neural-canvas')
+  // initNeuralGlow('neural-canvas')
   initHeroAnimation()
   initFilters() // Handles initial render
   initScrollObserver()
   setCopyrightYear()
-  initTestAccountButtons()
 })
 
 /* =========================================
@@ -68,6 +67,11 @@ function renderProjects(data, container) {
                 <div class="project-type">${categoryLabels}</div>
                 <h3 class="project-title">${project.title}</h3>
                 <div class="project-desc-short">${project.alt}</div>
+        ${
+          project.features
+            ? `<div class="project-features">${project.features.map((f) => `<span class="feature-tag">${f}</span>`).join('')}</div>`
+            : ''
+        }
         <div class="project-links">
             ${linksHtml}
         </div>
@@ -126,18 +130,6 @@ function initFilters() {
         grid.style.opacity = '1'
       }, 300) // Must match CSS transition duration
     })
-  })
-}
-
-// Initialize listeners for test account buttons (currently logs credentials)
-function initTestAccountButtons() {
-  document.addEventListener('click', (e) => {
-    const btn = e.target.closest('.test-login-btn')
-    if (!btn) return
-    const email = btn.dataset.email
-    const pass = btn.dataset.pass
-    console.log('Test login credentials:', { email, pass })
-    // Placeholder: integrate with actual authentication flow if needed
   })
 }
 
